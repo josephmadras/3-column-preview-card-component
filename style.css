@@ -86,10 +86,13 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  body {
+    height: 100%;
+    padding: 20px 0;
+  }
   .card-container {
     display: flex;
     flex-direction: column;
-    padding-top: 40rem;
     overflow: hidden;
   }
   .card-container > .card {
